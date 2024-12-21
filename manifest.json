@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "React Chrome Extension",
+  "action": {
+    "default_icon": {
+      "16": "icons/icon1.png",
+      "48": "icons/icon1.png",
+      "128": "icons/icon1.png"
+    }
+  },
+  "description": "A simple React app as a Chrome extension",
+  "permissions": ["activeTab", "scripting","storage" ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "js/background.js"
+  }
+}

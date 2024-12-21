@@ -1,9 +1,9 @@
 module.exports = {
   content: [
-    './src/**/*.tsx', // paths to your source files
-    './src/**/*.css',
-    // add more paths if needed
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
-  darkMode: 'media', // or remove this line if you don't use dark mode
-  // ... rest of the config
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
