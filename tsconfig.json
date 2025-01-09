@@ -1,26 +1,26 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es5", // Specifies the target ECMAScript version for the compiled JavaScript.
     "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+      "dom", // Includes the DOM library for browser APIs.
+      "dom.iterable", // Includes support for iterable DOM collections.
+      "esnext" // Includes the latest ECMAScript features.
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "allowJs": true, // Allows JavaScript files to be compiled.
+    "skipLibCheck": true, // Skips type checking of declaration files.
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules.
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export.
+    "strict": true, // Enables all strict type-checking options.
+    "forceConsistentCasingInFileNames": true, // Disallows inconsistently-cased references to the same file.
+    "noFallthroughCasesInSwitch": true, // Ensures that switch statements have a default case.
+    "module": "esnext", // Specifies the module code generation method.
+    "moduleResolution": "node", // Specifies the module resolution strategy.
+    "resolveJsonModule": true, // Allows importing JSON files as modules.
+    "isolatedModules": true, // Ensures that each file can be safely transpiled without relying on other files.
+    "noEmit": true, // Disables emitting output files.
+    "jsx": "react-jsx" // Specifies the JSX code generation method.
   },
   "include": [
-    "src"
+    "src" // Specifies the root folder for the source files.
   ]
 }
